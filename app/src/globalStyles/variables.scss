@@ -2,12 +2,12 @@ $routeTransitionDuration: 600ms;
 $minAppHeight: 1vh;
 $route-cubic-bezier: cubic-bezier(.59,0,.61,.98);
 
-$color-site-bg: #f1f1f1;
-$color-list-item-bg: #fff;
+$color-site-bg: #bdbc9b;
+$color-list-item-bg: rgb(137, 185, 161);
 $color-list-item-bg-hover: #fdfdfd;
-$color-font-dark: #111;
-$color-heart: #f00;
-$color-heart-hover: #ff69b4;
+$color-font-dark: rgb(67, 59, 112);
+$color-heart: rgb(226, 118, 118);
+$color-heart-hover: #880000;
 
 $tabletWidth: 1024px;
-$mobileWidth: 667px;
+$mobileWidth: 667px;    

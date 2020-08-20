@@ -14,9 +14,9 @@ const initialState = {
             title: "Beautiful mountain landscapes",
             timeToRead: 5,
             created: 1553486400,
-            videoId: "iDlLCKnOB2M",
+            videoId: "vJBCwNSUQ0s",
             thumbnail: "https://images.unsplash.com/photo-1534067783941-51c9c23ecefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
-            favorite: false,
+            favorite: true,
             body: '<p>Climbing tall mountains is difficult.  It can take a long time.  You need to bring equipment. Climbing tall mountains is difficult.  It can take a long time.  You need to bring equipment. Climbing tall mountains is difficult.  It can take a long time.  You need to bring equipment. Climbing tall mountains is difficult.  It can take a long time.  You need to bring equipment.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque in dictum non consectetur a erat nam. Pretium aenean pharetra magna ac placerat vestibulum lectus. Purus non enim praesent elementum facilisis leo vel. Viverra nam libero justo laoreet sit amet. Purus non enim praesent elementum facilisis leo vel. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Sed blandit libero volutpat sed cras ornare arcu dui vivamus. Augue mauris augue neque gravida in fermentum. Turpis egestas sed tempus urna. Nibh praesent tristique magna sit amet purus gravida quis. Amet tellus cras adipiscing enim. Vivamus at augue eget arcu dictum.</p><p>Ut ornare lectus sit amet est placerat in egestas. Dolor purus non enim praesent. Lacus vel facilisis volutpat est velit egestas. Nulla facilisi morbi tempus iaculis urna. Elementum sagittis vitae et leo duis ut diam quam. Maecenas pharetra convallis posuere morbi leo urna. Viverra aliquet eget sit amet tellus cras. Nisi vitae suscipit tellus mauris a diam maecenas sed. Pulvinar etiam non quam lacus suspendisse faucibus interdum posuere. Massa tempor nec feugiat nisl pretium fusce. Condimentum mattis pellentesque id nibh tortor. Urna porttitor rhoncus dolor purus non enim praesent elementum.</p>',
         },
         '002': {

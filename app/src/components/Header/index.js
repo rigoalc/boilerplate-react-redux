@@ -6,6 +6,6 @@ import { IoIosHome } from 'react-icons/io';
 
 export default ({ search, sort }) => (
     <div className={classnames( styles.header )}>
-        <Link to={'/'}><h2><IoIosHome size={25} />Adriaan Balt's Blog</h2></Link>
+        <Link to={'/'}><h2><IoIosHome size={25} />Rigo Alcover Blog</h2></Link>
     </div>
 )

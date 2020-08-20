@@ -41,10 +41,10 @@ class BlogDetailsView extends Component {
                 <header>
                         <div className={styles.headerItem}>
                             <h1>{title}</h1>
-                            <FavoriteHeart id={id} favorite={favorite} toggleFavorite={toggleFavorite} size={30}/>
+                            <FavoriteHeart id={id} favorite={favorite} toggleFavorite={toggleFavorite} size={50}/>
                             <div className={styles.date}>
                             {
-                                momentDate.format('MMMM D, YYYY')
+                                momentDate.format('MMMM D , YYYY')
                             }
                             </div>
                             <div>{`${timeToRead} min to read`}</div>
