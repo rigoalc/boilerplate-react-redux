@@ -20,9 +20,13 @@ const BlogListViewItem = ({ title, id, thumbnail, favorite, toggleFavorite, crea
     return (
         <article className={styles.listItem}>
             <Link to={`/details/${id}`}>
-                <div className={styles.imgContainer}>
-                    <img src={thumbnail} alt={title}/>
-                </div>
+                {
+                    thumbnail
+                    &&
+                    <div className={styles.imgContainer}>
+                        <img src={thumbnail} alt={title}/>
+                    </div>
+                }
                 <h3>{title}</h3>
                 <div className={styles.bottom}>
                     <p>
@@ -58,6 +62,7 @@ class BlogListView extends Component {
         } = this.props
         return (
             <section className={styles.BlogListView}>
+                <img src="./profile-picture.png" className={styles.profilePicture}/>
                 <div className={styles.customizeOptions}>
                     <div>
                         <Search />

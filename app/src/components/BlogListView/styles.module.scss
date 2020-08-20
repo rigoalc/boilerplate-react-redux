@@ -1,6 +1,11 @@
 @import '../../globalStyles/variables.scss';
 
 .BlogListView {
+    .profilePicture {
+        width: 50%;
+        margin: auto;
+        display: block;
+    }
     .customizeOptions {
         display: flex;
         flex-direction: row;
@@ -28,9 +33,7 @@
             padding: 2%;
             background: $color-list-item-bg;
             text-align: center;
-            border-radius: 50%;
             img{
-                border-radius: 50%;
                 width: 100%;
                 display: block;
                 transition:all .8s;
