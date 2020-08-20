@@ -1,5 +1,6 @@
 {
     "name": "rigoalcover",
+    "description": "Rigo Alcover's website",
     "version": "0.0.0",
     "private": true,
     "engines": {
