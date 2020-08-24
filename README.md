@@ -1,4 +1,4 @@
-# Hello!  My name is Adriaan Balt and I built this blog platform from scratch using [Create React App](https://github.com/facebook/create-react-app) in about 10 working hours.
+# Hello!  My name is Rodrigo Alcover and I built this blog platform from scratch using [Create React App](https://github.com/facebook/create-react-app) in about 10 working hours.
 
 ## You can find more information about me at:
 * [Website](http://www.adriaanbalt.com) 
