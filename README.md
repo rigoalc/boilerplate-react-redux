@@ -1,5 +1,17 @@
-# Hello!  My name is Rodrigo Alcover and I built this blog platform from scratch using [Create React App](https://github.com/facebook/create-react-app) in about 10 working hours.
+# Rodrigo Alcover website
 
+## Things to do
+* Change the title of the window in the browser bar from "React App" to "Rodrigo Alcover"
+* Change the favicon to something else (find a favicon online)
+* Create and add more posts to posts.js
+* Update colors
+* Follow more companies on LinkedIn
+* Connect with more people at the companies that you follow
+* Look at recruiting companies on linkedin
+* Look at Greatflix and use the "qa-template" GIT repository for the template to send in the email
+* iOS Emulator: Read this article https://www.superlogix.net/the-7-best-ios-emulators-for-your-pc.htm
+* Android Emulator: on our computer, open the app "Genymotion"
+* 
 
 ## Files and Folders explanation
 * `/globalStyles` is where universal files are located.  They are loaded into /index.scss which does not include `module` in its name so it does not act like a css module.
@@ -12,18 +24,28 @@
 * The blog posts are located in `/app/src/reducers/posts.js`.  You can add or update them there.  If there was a backend, this reducer would be hydrated by the backend service.
 * I made the blog posts an object because it would allow for faster look ups rather than searching through arrays in various circumstances.  I could have taken the array approach but I like to try O(1) whenever I can.
 
-## Things I would have liked to get to:
-* Flesh out the i18n helper to make the hard coded copy easier to translate
-* Implement related posts at the bottom of each article
-* Enable sharing functionality of some sort
-* Maybe built a drawer for mobile but not sure what I would put in it. (maybe my list of favorite articles...)
-* I would have liked to animate between sort and search lists (although I'm happy I have cross fade between the screens)
-* A backend possibly built with Node
-* The ability to make comments on the posts
-* Add analyzer to review bundle sizes
+### steps to start environment
+```bash
+$ cd projects
+$ git clone {git repository https address (found by clicking the green CODE button on a Github repository website)}
+$ cd {name of git repository and the folder that you just created}
+$ code . <- open Visual Studio Code Editor to the folder that you 
+$ yarn start
+```
 
-## Strange things
-* There is a warning from router but the creators of React Router haven't fixed it yet, not sure why that is the case. [See more here](https://github.com/ReactTraining/react-router/issues/6382)
+### How to update Github
+```
+// MAKE CHANGE TO CODE in your editor ie: Visual Studio Code
+$ git add .
+$ git commit -m "{your message}"
+$ git push origin master <- branch like a tree
+$ git checkout -b {branch-name} <- CREATES a new branch
+// MAKE CHANGES TO CODE
+$ git add .
+$ git commit -m "{your message}"
+$ git push origin {branch-name}
+$ git checkout master
+```
 
 ## How to run the app
 
