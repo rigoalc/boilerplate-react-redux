@@ -100,7 +100,7 @@ var initialState = {
       videoId: "",
       thumbnail: "",
       favorite: false,
-      body: '<h1>DataBase/SQL CIS175</p>'
+      body: '<p><h1>DataBase/SQL CIS175</h1></p><p>In this course, students will learn how to design and create a database using MS Access along withusing SQL to access and query data within a database along with writingprograms that access and maintain databases. Included will also be an introduction of data structures, data dictionaries, datasecurity, and database components. Discussions will include the current and future database environmental concerns.</p>'
     }
   }
 };

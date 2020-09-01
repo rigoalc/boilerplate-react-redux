@@ -19,7 +19,7 @@ export const selectSortOption = (selected) => (dispatch) => {
 }
 
 export const performSearch = (query) => async (dispatch) => {
-    const results = await SearchSetup.performSearch(query)
+    const results = SearchSetup.performSearch(query)
     dispatch({
         type: PERFORM_SEARCH,
         query,

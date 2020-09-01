@@ -15,8 +15,8 @@ import {
 
 import styles from './styles.module.scss'
 
-const BlogListViewItem = ({ title, id, thumbnail, favorite, toggleFavorite, created, timeToRead }) => {
-    const momentDate = Moment.unix( created )
+const BlogListViewItem = ({ title, id, thumbnail, favorite, toggleFavorite }) => {
+   
     return (
         <article className={styles.listItem}>
             <Link to={`/details/${id}`}>
@@ -29,16 +29,8 @@ const BlogListViewItem = ({ title, id, thumbnail, favorite, toggleFavorite, crea
                 }
                 <h3>{title}</h3>
                 <div className={styles.bottom}>
-                    <p>
-                        {
-                            momentDate.format('MMMM D, YYYY')
-                        }
-                    </p>
-                    <p>
-                        {
-                            `${timeToRead} min to read`
-                        }
-                    </p>
+                   
+                    
                 </div>
             </Link>
             <FavoriteHeart id={id} favorite={favorite} toggleFavorite={toggleFavorite} size={20} />
