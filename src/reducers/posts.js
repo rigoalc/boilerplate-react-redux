@@ -14,7 +14,7 @@ const initialState = {
             title: "Programing LOGIC",
             thumbnail: "",
             favorite: false,
-            body: '<p>Programing LOGIC</p><p><p><a href="https://github.com/rigoalc">Visit My Git Hub Repositories</a></p></p>',
+            body: '<p><h1>Programing LOGIC</h1></p><p><p><a href="https://github.com/rigoalc">Click here to Visit My Git Hub Repositories</a></p><p> This course introduces students to the essential programming knowledge for advancing to a programming language course. Learning will include the fundamentals of structured program design, including standard business programming algorithms and documentation practices. It familiarizes the student with the flow of program logic, flowcharting, use of the three necessary control structures of programming, an introductory structured programming language and design methodologies. Concepts such as multiple level accumulation and array processing are included. </p>',
         },
         '002': {
             id: '002',
@@ -22,7 +22,7 @@ const initialState = {
             videoId: "",
             thumbnail: "",
             favorite: false,
-            body: '<p>JavaScript Class 173</p>',
+            body: '<p><h1>JavaScript Class</h1></p><p> In this course students will learn how to use client-side scripting with JavaScript to meet unique project requirements and creative goals. Students will use text editors and WYSIWYG applications to write scripts that trigger programs with web-based events and add interactivity to existing web pages. </p>',
         },
         '003': {
             id: '003',
@@ -30,7 +30,7 @@ const initialState = {
             videoId: "",
             thumbnail: "",
             favorite: false,
-            body: '<p>System Design and Analysis</p>',
+            body: '<p><h1>System Design and Analysis</h1></p><p>Students in this course learn common systems development methods of analysis, modeling, development and implementation of a business system placing emphasis on the tools and practices currently used by systems analysts for a new business system. Various methodologies will be learned; SSDLC (Structured Systems Analysis and Design - the waterfall method) to JAD and RAD (Joint and Rapid Application Development) and the use of UML (Unified Modeling Language) and Object Oriented tools. Finally, this course will explain how IT supports business requirements in today’s competitive environment and describe major IT developments and trends.<p/>',
         },
         '004': {
             id: '004',
@@ -38,7 +38,7 @@ const initialState = {
             videoId: "",
             thumbnail: "",
             favorite: false,
-            body: '<p><h1>Public Speaking COM101</h1></p><p>Beginning course in public speaking dealing with the application of basic principles and practices of effective speaking. Coursework includes oral presentations and practical applications of speech communication theory. Communication: Express ideas both verbally and in writing; demonstrate the ability to understand written, visual, and spoken communication; convey purpose, meaning and main ideas effectively to individuals and groups. Critical Thinking: Identify central issues and assumptions in an argument, recognize important relationships, locate additional information sources, make reasonable “I” references from data, deduce conclusions from data or information, interpret whether conclusions are warranted on the basis of the data analyzed and evaluate evidence and authority. Technology: Demonstrate the ability to use computers and related technology to manage and access information. <h2>Goals/Objectives/Expected Student Outcomes</h2> <p>As a result of completing COM 101, the learner: Appreciates the value of effective public speaking Interrelates academic, professional, social and personal benefits to studying public discourse. Correlates benefits of course to personal/professional goals. Categorizes various types of public speeches. Integrates types of speeches with corresponding functions. Gains confidence when dealing with large groups of people.</p>',
+            body: '<p><h1>Public Speaking</h1></p><p>Beginning course in public speaking dealing with the application of basic principles and practices of effective speaking. Coursework includes oral presentations and practical applications of speech communication theory. Communication: Express ideas both verbally and in writing; demonstrate the ability to understand written, visual, and spoken communication; convey purpose, meaning and main ideas effectively to individuals and groups. Critical Thinking: Identify central issues and assumptions in an argument, recognize important relationships, locate additional information sources, make reasonable “I” references from data, deduce conclusions from data or information, interpret whether conclusions are warranted on the basis of the data analyzed and evaluate evidence and authority. Technology: Demonstrate the ability to use computers and related technology to manage and access information. <h2>Goals/Objectives/Expected Student Outcomes</h2> <p>As a result of completing COM 101, the learner: Appreciates the value of effective public speaking Interrelates academic, professional, social and personal benefits to studying public discourse. Correlates benefits of course to personal/professional goals. Categorizes various types of public speeches. Integrates types of speeches with corresponding functions. Gains confidence when dealing with large groups of people.</p>',
         },
         '005': {
             id: '005',
@@ -46,7 +46,7 @@ const initialState = {
             videoId: "lpoOlBDIdxE",
             thumbnail: "",
             favorite: false,
-            body: '<h1>Piano 1 & 2 </p>',
+            body: '<p><h1>Piano 1 & 2</h1><p> This introductory course in piano covers the first two levels of elementary studies. It is appropriate for both beginners and individuals who may have discontinued their early studies and need to review fundamental keyboard skills. General course objectives At the successful completion of the course a student will:</p><p> 1. Apply common terms and notation used in performing piano music.</p><p>2. Demonstrate fundamental piano technique.</p><p>3. Appreciate the value of music through the medium of piano.</p> ',
         },
 
         '006': {
@@ -64,7 +64,7 @@ const initialState = {
             videoId: "",
             thumbnail: "",
             favorite: false,
-            body: '<h1>Music Appreciation MUS101</p>',
+            body: '<p>  <h1>Music Appreciation MUS101</p><p>This is a study of the substance of music of various styles, including jazz, pop and classical. The course examines such musical elements as melody, harmony, rhythm, and the make-up of performing ensembles, with an emphasis on the development of basic listening skills. It is appropriate for students who are new to the study of music and those wishing to pursue the literature and history of music in greater depth. Minimum benchmarks will be enforced.</p>',
         },
         
         '008': {
