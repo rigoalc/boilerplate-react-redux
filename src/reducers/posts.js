@@ -12,18 +12,13 @@ const initialState = {
         '001': {
             id: '001',
             title: "Programing LOGIC",
-            timeToRead: 5,
-            created: 1553486400,
-            videoId: "",
             thumbnail: "",
             favorite: false,
-            body: '<p>Programing LOGIC</p>',
+            body: '<p>Programing LOGIC</p><p><p><a href="https://github.com/rigoalc">Visit My Git Hub Repositories</a></p></p>',
         },
         '002': {
             id: '002',
             title: "JavaScript Class 173",
-            timeToRead: 15,
-            created: 925963200,
             videoId: "",
             thumbnail: "",
             favorite: false,
@@ -32,8 +27,6 @@ const initialState = {
         '003': {
             id: '003',
             title: "System Design and Analysis",
-            timeToRead: 10,
-            created: 1554523200,
             videoId: "",
             thumbnail: "",
             favorite: false,
@@ -42,8 +35,6 @@ const initialState = {
         '004': {
             id: '004',
             title: "Public Speaking",
-            timeToRead: 25,
-            created: 1526097600,
             videoId: "",
             thumbnail: "",
             favorite: false,
@@ -52,9 +43,7 @@ const initialState = {
         '005': {
             id: '005',
             title: "Piano 1 & 2",
-            timeToRead: 25,
-            created: 1526097600,
-            videoId: "",
+            videoId: "lpoOlBDIdxE",
             thumbnail: "",
             favorite: false,
             body: '<h1>Piano 1 & 2 </p>',
@@ -63,8 +52,6 @@ const initialState = {
         '006': {
             id: '006',
             title: "Web Page Coding CIS170",
-            timeToRead: 25,
-            created: 1526097600,
             videoId: "",
             thumbnail: "",
             favorite: false,
@@ -74,8 +61,6 @@ const initialState = {
         '007': {
             id: '007',
             title: "Music Appreciation MUS101",
-            timeToRead: 25,
-            created: 1526097600,
             videoId: "",
             thumbnail: "",
             favorite: false,
@@ -85,8 +70,6 @@ const initialState = {
         '008': {
             id: '008',
             title: "DataBase/SQL CIS175",
-            timeToRead: 25,
-            created: 1526097600,
             videoId: "",
             thumbnail: "",
             favorite: false,

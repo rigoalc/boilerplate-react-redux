@@ -28,10 +28,8 @@ class BlogDetailsView extends Component {
                 title,
                 thumbnail,
                 videoId,
-                
                 body,
                 favorite,
-
             },
             toggleFavorite,
         } = this.props;
@@ -41,14 +39,11 @@ class BlogDetailsView extends Component {
                 <header>
                         <div className={styles.headerItem}>
                             <h1>{title}</h1>
-                            <FavoriteHeart id={id} favorite={favorite} toggleFavorite={toggleFavorite} size={50}/>
-                           
-                            
-                            <Link className={styles.backBtn} to="/"><IoIosArrowBack size={20}/>Back</Link>
+                            <FavoriteHeart id={id} favorite={favorite} toggleFavorite={toggleFavorite} size={40}/>
+                           <Link className={styles.backBtn} to="/"><IoIosArrowBack size={15}/>Back</Link>
                             <IoIosArrowDown className={styles.arrowDownIcon } size={32}/>
                         </div>
                         <div className={styles.headerItem}>
-                            
                         </div>
                 </header>
                 <article className={styles.videoContainer}>

@@ -23,15 +23,13 @@ const BlogListViewItem = ({ title, id, thumbnail, favorite, toggleFavorite }) =>
                 {
                     thumbnail
                     &&
-                    <div className={styles.imgContainer}>
+                    <div className={styles.imgContainer}>``
                         <img src={thumbnail} alt={title}/>
                     </div>
                 }
                 <h3>{title}</h3>
                 <div className={styles.bottom}>
-                   
-                    
-                </div>
+                   </div>
             </Link>
             <FavoriteHeart id={id} favorite={favorite} toggleFavorite={toggleFavorite} size={20} />
         </article>
