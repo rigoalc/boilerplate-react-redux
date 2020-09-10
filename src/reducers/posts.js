@@ -14,7 +14,7 @@ const initialState = {
             title: "Programing LOGIC",
             thumbnail: "",
             favorite: false,
-            body: '<p><h1>Programing LOGIC</h1></p><p><a href="https://github.com/rigoalc">Click here to Visit My Git Hub Repositories</a></p><p> This course introduces students to the essential programming knowledge for advancing to a programming language course. Learning will include the fundamentals of structured program design, including standard business programming algorithms and documentation practices. It familiarizes the student with the flow of program logic, flowcharting, use of the three necessary control structures of programming, an introductory structured programming language and design methodologies. Concepts such as multiple level accumulation and array processing are included. </p>',
+            body: '<p><h1>Programing LOGIC</h1></p><p><a href="https://github.com/rigoalc" target="_blank">Click here to Visit My Git Hub Repositories</a></p><p> This course introduces students to the essential programming knowledge for advancing to a programming language course. Learning will include the fundamentals of structured program design, including standard business programming algorithms and documentation practices. It familiarizes the student with the flow of program logic, flowcharting, use of the three necessary control structures of programming, an introductory structured programming language and design methodologies. Concepts such as multiple level accumulation and array processing are included. </p>',
         },
         '002': {
             id: '002',
