@@ -19,7 +19,6 @@ const initialState = {
         '002': {
             id: '002',
             title: "JavaScript Class 173",
-            videoId: "",
             thumbnail: "",
             favorite: false,
             body: '<p><h1>JavaScript Class</h1></p><p> In this course students will learn how to use client-side scripting with JavaScript to meet unique project requirements and creative goals. Students will use text editors and WYSIWYG applications to write scripts that trigger programs with web-based events and add interactivity to existing web pages. </p>',
@@ -35,7 +34,7 @@ const initialState = {
         '004': {
             id: '004',
             title: "Public Speaking",
-            videoId: "Zu_zT_90VEE       ",
+            videoId: "Zu_zT_90VEE",
             thumbnail: "",
             favorite: false,
             body: '<p><h1>Public Speaking</h1></p><p>Beginning course in public speaking dealing with the application of basic principles and practices of effective speaking. Coursework includes oral presentations and practical applications of speech communication theory. Communication: Express ideas both verbally and in writing; demonstrate the ability to understand written, visual, and spoken communication; convey purpose, meaning and main ideas effectively to individuals and groups. Critical Thinking: Identify central issues and assumptions in an argument, recognize important relationships, locate additional information sources, make reasonable “I” references from data, deduce conclusions from data or information, interpret whether conclusions are warranted on the basis of the data analyzed and evaluate evidence and authority. Technology: Demonstrate the ability to use computers and related technology to manage and access information. <h2>Goals/Objectives/Expected Student Outcomes</h2> <p>As a result of completing COM 101, the learner: Appreciates the value of effective public speaking Interrelates academic, professional, social and personal benefits to studying public discourse. Correlates benefits of course to personal/professional goals. Categorizes various types of public speeches. Integrates types of speeches with corresponding functions. Gains confidence when dealing with large groups of people.</p>',
@@ -55,7 +54,7 @@ const initialState = {
             videoId: "",
             thumbnail: "",
             favorite: false,
-            body: '<p><h1>Web Page Coding CIS170</h1></p> <p>This course is designed to prepare the students for creating and updating web pages using only a text editor and browser. The sharing of information through the use of text, graphics, sound, video, buttons, and linking to other web pages will be explored. Students will design, create, and publish a web site using the skills learned in this course.</p>',
+            body: '<p><h1>Web Page Coding CIS170</h1></p> <p>This course is designed to prepare the students for creating and updating web pages using only a text editor and browser. The sharing of information through the use of text, graphics, sound, video, and linking to other web pages will be explored. Students will design, create, and publish a web site using the skills learned in this course.</p>',
             },
 
         '007': {

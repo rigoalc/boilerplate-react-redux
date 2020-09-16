@@ -7,5 +7,8 @@ import { IoIosHome } from 'react-icons/io';
 export default ({ search, sort }) => (
     <div className={classnames( styles.header )}>
         <Link to={'/'}><h2>Rodrigo Alcover</h2></Link>
+        {
+            // add your linked in and github links here
+        }
     </div>
 )

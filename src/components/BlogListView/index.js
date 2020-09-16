@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import Moment from 'moment'
 
 import withScreen from '../../hoc/withScreen'
-import FavoriteHeart from '../FavoriteHeart'
+import Button from '../Button'
 import DropDown from '../DropDown'
 import Search from '../Search'
 import {
@@ -31,7 +31,7 @@ const BlogListViewItem = ({ title, id, thumbnail, favorite, toggleFavorite }) =>
                 <div className={styles.bottom}>
                    </div>
             </Link>
-            <FavoriteHeart id={id} favorite={favorite} toggleFavorite={toggleFavorite} size={20} />
+            <Button id={id} favorite={favorite} toggleFavorite={toggleFavorite} size={20} />
         </article>
     )
 }

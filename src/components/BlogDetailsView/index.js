@@ -13,7 +13,7 @@ import styles from './styles.module.scss';
 import {
     toggleFavorite
 } from '../../actions'
-import FavoriteHeart from '../FavoriteHeart';
+import Button from '../Button';
 
 /**
  * @class BlogDetailsView
@@ -39,7 +39,7 @@ class BlogDetailsView extends Component {
                 <header>
                         <div className={styles.headerItem}>
                             <h1>{title}</h1>
-                            <FavoriteHeart id={id} favorite={favorite} toggleFavorite={toggleFavorite} size={40}/>
+                            <Button id={id} favorite={favorite} toggleFavorite={toggleFavorite} size={40}/>
                            <Link className={styles.backBtn} to="/"><IoIosArrowBack size={15}/>Back</Link>
                             <IoIosArrowDown className={styles.arrowDownIcon } size={32}/>
                         </div>
@@ -48,6 +48,9 @@ class BlogDetailsView extends Component {
                 </header>
                 <article className={styles.videoContainer}>
                     <div>
+                    {
+                        videoId
+                        &&
                         <YouTube
                             videoId={videoId}
                             opts={{
@@ -58,6 +61,7 @@ class BlogDetailsView extends Component {
                                 }
                             }}
                             onReady={this._onReady} />
+                    }
                     </div>
                 </article>
                 <article className={styles.body} dangerouslySetInnerHTML={{ __html: body }}></article>

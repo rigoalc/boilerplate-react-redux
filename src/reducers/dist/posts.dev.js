@@ -80,7 +80,7 @@ var initialState = {
       videoId: "",
       thumbnail: "",
       favorite: false,
-      body: '<p><h1>Web Page Coding CIS170</h1></p> <p>This course is designed to prepare the students for creating and updating web pages using only a text editor and browser. The sharing of information through the use of text, graphics, sound, video, buttons, and linking to other web pages will be explored. Students will design, create, and publish a web site using the skills learned in this course.</p>'
+      body: '<p><h1>Web Page Coding CIS170</h1></p> <p>This course is designed to prepare the students for creating and updating web pages using only a text editor and browser. The sharing of information through the use of text, graphics, sound, video, and linking to other web pages will be explored. Students will design, create, and publish a web site using the skills learned in this course.</p>'
     },
     '007': {
       id: '007',

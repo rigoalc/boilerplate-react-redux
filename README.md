@@ -1,6 +1,14 @@
 # Rodrigo Alcover website
 
 ## Things to do
+* We renamed "FavoriteHeart" to "Button".  Now only show the button the post has a piano video
+* Remove "Time to read" from the "sort" dropdown menu
+* Add your Github and LinkedIn buttons to the <Header component
+* Remove the github and linkedin from the index.html file (they should be in the <Header component)
+* Update the <Header "position: fixed;" styles
+* Give the new <Header a background color
+
+
 * Change the title of the window in the browser bar from "React App" to "Rodrigo Alcover"
 * Change the favicon to something else (find a favicon online)
 * Create and add more posts to posts.js
@@ -11,7 +19,7 @@
 * Look at Greatflix and use the "qa-template" GIT repository for the template to send in the email
 * iOS Emulator: Read this article https://www.superlogix.net/the-7-best-ios-emulators-for-your-pc.htm
 * Android Emulator: on our computer, open the app "Genymotion"
-* 
+
 
 ## Files and Folders explanation
 * `/globalStyles` is where universal files are located.  They are loaded into /index.scss which does not include `module` in its name so it does not act like a css module.
